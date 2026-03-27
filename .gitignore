@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+.npm
+
+# Wrangler
+.wrangler/
+dist/
+
+# Environment / Secrets — NEVER commit these
+.env
+.env.local
+.dev.vars
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp

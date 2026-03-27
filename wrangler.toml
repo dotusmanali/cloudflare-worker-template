@@ -1,0 +1,17 @@
+name = "my-ai-worker"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# ── Workers AI binding ────────────────────────────────────────────────────────
+# This gives your worker access to Cloudflare's AI models for FREE
+[ai]
+binding = "AI"
+
+# ── Environment Variables ─────────────────────────────────────────────────────
+# Set your secret API key via Cloudflare dashboard or CLI:
+#   wrangler secret put API_KEY
+# Then enter your chosen secret password when prompted.
+
+# ── Optional: Custom domain ───────────────────────────────────────────────────
+# routes = [{ pattern = "ai.yourdomain.com/*", zone_name = "yourdomain.com" }]
